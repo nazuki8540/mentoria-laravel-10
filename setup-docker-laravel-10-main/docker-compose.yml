@@ -2,6 +2,7 @@ version: "3.7"
 
 services:
     sistema_gestao:
+        container_name: sistema_gestao_laravel
         build:
             context: .
             dockerfile: Dockerfile
